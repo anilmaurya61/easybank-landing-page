@@ -14,16 +14,28 @@
   <header>
     <ul>
       <li><img src="./images/logo.svg" alt=""></li>
-      <li><img src="./images/icon-hamburger.svg" alt=""></li>
+      <li class="navigation-menu"><img id="humber-icon" src="./images/icon-hamburger.svg" alt="">
+      <img id="close-icon" src="./images/icon-close.svg" alt="">
+    </li>
     </ul>
+
+    <div class="hamburger">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#services">About</a></li>
+        <li><a href="#footer">Contact</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#career">Careers</a></li>
+      </ul>
+    </div>
     <ul class="header-list">
       <li><img src="./images/logo.svg" alt="easybankicon"></li>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Blog</li>
-        <li>Careers</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#services">About</a></li>
+        <li><a href="#footer">Contact</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#career">Careers</a></li>
       </ul>
       <li><button class="request-btn header-btn">Request Invite</button></li>
     </ul>
@@ -55,7 +67,7 @@
     </div>
   </section>
 
-  <section class="feature">
+  <section id="services" class="feature">
     <div class="container">
       <h1>Why choose Easybank?</h1>
       <p>We leverage Open Banking to turn your bank account into your financial hub. Control
@@ -90,7 +102,7 @@
   </section>
 
 
-  <section>
+  <section id="blog">
     <div class="container">
       <h1 class="Articles">Latest Articles</h1>
       <div class="articals">
@@ -126,7 +138,7 @@
     </div>
   </section>
 
-  <footer>
+  <footer id="footer">
     <div class="footer-padding">
       <div class="footer-flex">
         <div class="footer-links">
@@ -150,7 +162,7 @@
           <div class="Privacy"><a href="#">Privacy Policy</a></div>
         </div>
       </div>
-      
+
       <div class="footer-links">
         <div class="button-request"><button class="request-btn">Request Invite</button></div>
         <div class="rights">&copy Easybank. All Rights Reserved</div>
@@ -160,6 +172,7 @@
   <div class="attribution">
     Coded by <a href="https://www.linkedin.com/in/anilmaurya61/">Anil Maurya</a>.
   </div>
+  <script src="./index.js"></script>
 </body>
 
 </html>
